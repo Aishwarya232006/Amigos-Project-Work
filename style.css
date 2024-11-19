@@ -1,0 +1,48 @@
+footer {
+    background-color: #4C2E05;
+    color: #F5F5DC;
+    padding: 3px;
+    text-align: center;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    width: 100%; 
+    font-family: "Reem Kufi", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+  
+  
+  footer a {
+    color:#F5F5DC;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    margin-top: 20px;
+  }
+
+  .horizontal-lines-wrapper {
+    display: flex;
+    margin: 1px;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 2px;
+    background-color: #F5F5DC;
+    margin: 1px;
+}
+
+.copyright {
+    background-color: #412705;
+    font-size: 14px;
+    padding: 1px;
+    margin-top: 10px;
+}
