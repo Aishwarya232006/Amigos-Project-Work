@@ -12,6 +12,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="header.css" />
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-section {
+    flex: 3;
+    padding: 20px;
+  }
+  
+  .main-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .right-section {
+    flex: 2;
+    padding: 20px;
+    background-color: #e9f7d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .right-section h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .right-section p {
+    color: #555;
+    line-height: 1.5;
+  }
+    </style>
 </head>
 <body>
       <header>
@@ -30,14 +78,21 @@
           <a link href=""><img src="grocery-store.png" alt="cart"></a>
       </header>
       <h3 style="font-weight: bolder; padding-left: 300px;">Enhance your home with us to make it a happy place!</h3>
-      <div class="show-page">
-          <img src="showroom.png" width="40%" height="40%"> <section><h3>The way we see it!</h3>
-          <p>Visit our store to get an assistance 
-          </n>Our store has several interior designers to help you out if needed. 
-          We decided to include this feature to 
-          assist your innovative mind.
-          </p></section>
-    </div>
+      <div class="container">
+        <div class="left-section">
+          <img src="living room.jpg" alt="Living Room" class="main-image">
+          <div class="thumbnails">
+          </div>
+        </div>
+        <div class="right-section">
+          <h1>The way we see it!</h1>
+          <p>
+            Visit our store to get assistance. Our store has several interior
+            designers to help you out if needed. We decided to include this
+            feature to assist your innovative mind.
+          </p>
+        </div>
+      </div>
     <div class="main-wrapper">
         <div class="sidebar">
             <div class="links">
