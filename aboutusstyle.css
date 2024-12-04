@@ -468,7 +468,6 @@ padding-top: 12px;
 }
 @media screen and (max-width: 768px) {
  header {
-   padding: 5px;
    margin: 0px;
  }
  .header-left-1 {
