@@ -850,7 +850,8 @@ body {
     text-align: center;
     font-style: italic;
     margin-bottom: 20px;
-    color: #777;
+    color: black;
+    font-family: "Reem Kufi", serif;
 }
 
 .bottom-section {
@@ -876,11 +877,14 @@ body {
 
 .bottom-text-box h2 {
     margin-top: 0;
+    font-family: "Praise", serif;
+    color: black;
 }
 
 .bottom-text-box p {
     font-size: 1rem;
-    color: #555;
+    color:black;
+    font-family: "Pragati Narrow", serif;
 }
 
 .bottom-image {
@@ -917,11 +921,18 @@ body {
 
 .middle-text-box h2 {
     margin-top: 0;
+    font-family: "Playball", serif;
 }
 
-.middle-text-box p {
+.middle-text-box section {
     font-size: 1rem;
-    color: #555;
+    color: black;
+    font-family: "ovo", serif;
+}
+.middle-text-box section p {
+    font-size: 1rem;
+    color:black;
+    font-family: "Pragati Narrow", serif;
 }
 
 .middle-image {
@@ -969,18 +980,20 @@ background-color: rgba(76, 46, 5, 1);
 /* Specific styles for the heading inside top-text-box */
 .top-text-box h2 {
     font-size: 1.5rem;  /* Slightly larger header text */
-    color: #3A3A3A;  /* Darker color for better readability */
+    color: #090101;  /* Darker color for better readability */
     margin: 0;  /* Remove margin from the heading */
     font-weight: bold;  /* Make the header bold */
+    font-family: "Reem Kufi", serif;
 }
 
 /* Specific styles for the paragraph inside top-text-box */
 .top-text-box p {
     font-size: 1rem;  /* Set the font size for paragraph text */
-    color: #555;  /* Dark grey color for the paragraph */
+    color:black;  
     margin-top: 5px;  /* Add a little margin on top if needed for better spacing */
     padding-top: 0;  /* Ensure no extra padding on top of the paragraph */
     margin-bottom: 0;  /* Remove bottom margin */
+    font-family: "Radio Canada Big", sans-serif;
 }
 
 /* Global Reset for all margin and padding (applies to all children of .top-text-box) */
