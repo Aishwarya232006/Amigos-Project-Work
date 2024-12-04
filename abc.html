@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interior Design</title>
+ <style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left-section {
+    flex: 3;
+    padding: 20px;
+  }
+  
+  .main-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .thumbnails {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .thumbnails img {
+    width: 24%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .thumbnails img:hover {
+    transform: scale(1.05);
+  }
+  
+  .right-section {
+    flex: 2;
+    padding: 20px;
+    background-color: #e9f7d9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .right-section h1 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .right-section p {
+    color: #555;
+    line-height: 1.5;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left-section">
+      <img src="living room.jpg" alt="Living Room" class="main-image">
+      <div class="thumbnails">
+      </div>
+    </div>
+    <div class="right-section">
+      <h1>The way we see it!</h1>
+      <p>
+        Visit our store to get assistance. Our store has several interior
+        designers to help you out if needed. We decided to include this
+        feature to assist your innovative mind.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
