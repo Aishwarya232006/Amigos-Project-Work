@@ -1,0 +1,221 @@
+<html>
+
+<head>
+  <title>Amigo Furniture | Home</title>
+  <link rel="stylesheet" href="contact.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <div class="top_header">
+      <img src="globe (1).png" alt="" width="20px" />
+      <p class="language-type">CA|English</p>
+    </div>
+    <div class="bot_header">
+      <div class="bot_header_1">
+        <a href="home.html"><img src="Amigo Logo.png" height="105px" /></a>
+      </div>
+      <div class="bot_header_2">
+        <div class="header-left">
+          <div class="header-left-1">
+            <img src="image-removebg-preview.png" alt="star" width="150px" height="30px" />
+            <p>Over 7 MILLION happy customers</p>
+          </div>
+          <div class="header-left-2">
+            <img src="search.png" alt="search" width="12px" />
+            <input type="text" placeholder="Search for style? Start here." width="1300px" height="150px" />
+          </div>
+        </div>
+        <div class="header-right">
+          <a link href=""><img src="like.png" alt="heart" /></a>
+          <a link href="cart-page.html"><img src="grocery-store.png" alt="cart" /></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="main-wrapper">
+    <div class="sidebar">
+      <div class="links">
+        <nav>
+          <ul>
+            <li><a href="#"><i class="fas fa-shopping-cart"></i>Shop Products</a></li>
+            <li><a href="showroom.html"><i class="fas fa-home"></i> Explore Showrooms</a></li>
+            <li><a href="blog_page.html"><i class="fa-solid fa-book-open"></i> Trending Designs</a></li>
+            <li><a href="contact.html"><i class="fas fa-phone"></i> Contact Us</a></li>
+            <li><a href="aboutus.html"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <br>
+            <li><a href="#"><i class="fas fa-newspaper"></i> Latest News</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="horizontal-lines-wrapper">
+        <div class="horizontal-line"></div>
+      </div>
+      <div class="latest-news">
+        <div class="news-item">
+          <a href="#">
+            <img src="modern showroom.webp" alt="News 1" />
+            <p>
+              <ins><i>10 modern home looks tak...</i></ins>
+            </p>
+          </a>
+        </div>
+        <div class="news-item">
+          <a href="#">
+            <img src="diningroom.webp" alt="News 2" />
+            <p>
+              <ins><i>Themed rooms are the latest tre...</i></ins>
+            </p>
+          </a>
+        </div>
+        <div class="news-item">
+          <a href="#">
+            <img src="living room.jpg" alt="News 3" />
+            <p>
+              <ins><i>Is coloured furniture back in st...</i></ins>
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="newstitle">
+        <h1>SUBSCRIBE TO OUR NEWSLETTER!</h1>
+        <p>
+          <i>Stay in the loop! Subscribe to our newsletter and be the first to
+            hear about new products, latest updates, and exclusive offers sent
+            straight to your inbox.</i>
+        </p>
+      </div>
+      <div class="container">
+        <form>
+          <input type="text" placeholder="FIRST NAME" />
+          <input type="text" placeholder="LAST NAME" />
+          <input type="email" placeholder="EMAIL ADDRESS" />
+          <button type="submit">SIGN UP</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="contact_box">
+      <div class="title">Contact us</div>
+      <div class="input">
+        <div class="infomation">
+          <input type="text" name="" id="firstname" placeholder="First name">
+          <input type="text" name="" id="lastname" placeholder="Last name">
+          <input type="text" name="" id="phonenumber" placeholder="Phone number">
+          <input type="text" name="" id="email" placeholder="email number">
+        </div>
+        <div class="feedback">
+          <input type="text" name="" id="problem" placeholder="Tell me about the problem">
+          <input type="text" name="" id="feedback" placeholder="Feedback about our website">
+        </div>
+      </div>
+      <div class="feedback_button">
+        <button type="button" onclick="showAlert()">Submit</button>
+      </div>
+    </div>
+    <div class="help">
+      <div class="title">Help and Support Center</div>
+      <div id="helpCenterPopup" class="popup">
+        <div class="quest">
+          <div class="faq"> <button class="faq-question" onclick="toggleFaq(this)">Why can't I add the product to the
+              checkout?<span class="plus">+</span></button>
+            <div class="faq-answer" style="display: none;">To fix that problem, please log out the webpage or use the f5
+              button on the keyboard
+              to solve the problem. If the problem cannot be solved, please let us know so we will have the solution
+              right for you.</div>
+          </div>
+        </div>
+        <div class="quest">
+          <button class="faq-question" onclick="toggleFaq(this)">How can I check for the nearest store?<span
+              class="plus">+</span></button>
+          <div class="faq-answer" style="display: none;">You can use the Google Maps to find the nearest location by
+            texting our store name in
+            the search bar to search the nearest store and the way to go to our store.</div>
+        </div>
+        <div class="quest">
+          <button class="faq-question" onclick="toggleFaq(this)">How do I get the coupon in the events?<span
+              class="plus">+</span></button>
+          <div class="faq-answer" style="display: none;">There are some pop-up event on some holidays, that will give
+            you the free coupon. To
+            know more about our pop-up events, please give us your email, so we can give you our announcements as fast
+            as possible!
+          </div>
+        </div>
+        <div class="quest">
+          <button class="faq-question" onclick="toggleFaq(this)">Do you have overseas stores?<span
+              class="plus">-</span></button>
+          <div class="faq-answer" style="display: none;">Yes, we do have some oversea store around the world, If you
+            want to know is there any
+            store in your country, try to find the page amigo.aa (aa is the abbreviation of your country), if there is a
+            page it means there are some store in your country. You can search for it or order it online.</div>
+        </div>
+        <div class="quest">
+          <button class="faq-question" onclick="toggleFaq(this)">You cannot search for your
+            items?<span class="plus">+</span></button>
+          <div class="faq-answer" style="display: none;">Maybe we do not provide the product that you need, we so sorry
+            about that, please
+            visit us another time, maybe we will have it, or send the form for our founders so that we will know what
+            you need. Thanks!</div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <div class="pay_method">
+      <div class="title">Payment methods</div>
+      <div class="pay_method_box">
+        <div class="description"> We now provide different methods to pay, which can help you enjoy your shopping easier
+          with just a touch. Pay for everything in just a second so that you can save time to go with your family!
+        </div>
+        <div class="payment-icons"> <img src="Visa.png" alt="Visa"> <img src="Master.png" alt="MasterCard"> <img
+            src="Google.png" alt="Google Pay"> <img src="Apple.png" alt="Apple Pay"> <img src="Ameri.png"
+            alt="American Express"> <img src="Samsun.png" alt="Samsung Pay"> </div>
+      </div>
+    </div>
+    <div class="link-box">
+      <div class="link-box-header">Link box</div>
+      <ul class="link-list">
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#security">Security information</a></li>
+        <li><a href="#terms">Terms and conditions</a></li>
+        <li><a href="#partners">Partners and developers</a></li>
+        <li><a href="#about">About us</a></li>
+      </ul>
+    </div>
+  </section>
+  <footer>
+    <div class="social-links">
+      <a href="#"><i class="fa-brands fa-facebook-f" style="color: #f5f5dc"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest" style="color: #f5f5dc"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram" style="color: #f5f5dc"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter" style="color: #f5f5dc"></i></a>
+    </div>
+    <br />
+    <div class="horizontal-lines-wrapper">
+      <div class="horizontal-line"></div>
+    </div>
+    <div class="horizontal-lines-wrapper">
+      <div class="horizontal-line"></div>
+    </div>
+    <div class="footer-nav">
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="#">Trending</a>
+    </div>
+    <div class="Copyright">
+      <p>Copyright ©2024. Designed by AMIGO Team</p>
+    </div>
+  </footer>
+  <script src="contact.js"></script>
+</body>
+
+</html>
